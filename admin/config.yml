@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: maya/test倉庫 # 例: tanaka-taro/my-blog
+  branch: main
+
+media_folder: "images" # 画像を保存する場所
+
+collections:
+  - name: "posts"
+    label: "記事"
+    folder: "_posts" # 記事のテキストが入る場所
+    create: true
+    fields:
+      - { label: "タイトル", name: "title", widget: "string" }
+      - { label: "本文", name: "body", widget: "markdown" }
