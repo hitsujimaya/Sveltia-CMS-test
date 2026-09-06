@@ -2,7 +2,6 @@ backend:
   name: github
   repo: hitsujimaya/Sveltia-CMS-test
   branch: main
-  base_url: https://sveltia-cms-auth.mofumofu-ab2.workers.dev
 
 media_folder: "images"
 
