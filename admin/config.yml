@@ -2,6 +2,7 @@ backend:
   name: github
   repo: maya/test倉庫 # 例: tanaka-taro/my-blog
   branch: main
+  base_url: [https://sveltia-cms-auth.mofumofu-ab2.workers.dev](https://sveltia-cms-auth.mofumofu-ab2.workers.dev) 
 
 media_folder: "images" # 画像を保存する場所
 
